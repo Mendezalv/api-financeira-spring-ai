@@ -1,0 +1,7 @@
+### Testar a IA via Texto
+POST http://localhost:8080/api/budget/text
+Content-Type: application/json
+
+{
+  "message": "Fui ao cinema hoje e gastei 150 reais, e também comprei 80 reais de lanche no shopping."
+}
